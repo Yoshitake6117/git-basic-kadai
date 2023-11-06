@@ -1,0 +1,27 @@
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge> git init
+Initialized empty Git repository in C:/Users/shisa/OneDrive/ドキュメント/SAMURAI_JUKU/TEST/gir_challenge/.git/
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge> dir
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge> git add .\hello_world.txt
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge> git commit -m "最初のコミット"
+[main (root-commit) d20bc29] 最初のコミット
+ 1 file changed, 2 insertions(+)
+ create mode 100644 hello_world.txt
+
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge> git add .\hello_world.txt
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge> git commit -m "日本語訳追加"
+[main 5c2a99f] 日本語訳追加
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge>
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge> git log
+commit 5c2a99f360cbf28929f043cec05c94eb965896e4 (HEAD -> main)
+Author: Yoshitake6117 <shisayu.papa@outlook.jp>
+Date:   Mon Nov 6 14:12:13 2023 +0900
+
+    日本語訳追加
+
+commit d20bc2961ecbc4aa470b8bd07992cc440a9a3625
+Author: Yoshitake6117 <shisayu.papa@outlook.jp>
+Date:   Mon Nov 6 14:10:51 2023 +0900
+
+    最初のコミット
+PS C:\Users\shisa\OneDrive\ドキュメント\SAMURAI_JUKU\TEST\gir_challenge> 
